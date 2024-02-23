@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Heebo", sans-serif;
+  }
+  button {
+    border: none;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  .container {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  /* HEADER START  */
+  .header a {
+    color: rgb(255, 0, 0);
+  }
+  .header-nav {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+  #header {
+    padding: 20px 0;
+  }
+  .header h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* HEADER END */
+
+  /* BLOCKS START  */
+.block h1 {
+    font-size: 30px;
+    font-weight: 700;
+    }
+    .block h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8695A4;
+    margin: 22px 0;
+    
+    }
+    .block p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 594px;
+    }
+    .block {
+        display: flex;
+        align-items: center;
+        margin: 15px 0;
+    }
+    .block img {
+        margin-right: 15px;
+    }
+    hr {
+        margin: 35px 0;
+    }
+    .block h2 span {
+    font-size: 18px;
+    font-weight: 900;
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    background-color: #142850;
+    color: white;
+    padding: 0px 8px;
+    }
+    .blocks h5 {
+        font-size: 44px;
+        font-weight: 900;
+    }
+    /* BLOCKS END */
+
+      /* FOOTER START  */
+.footer-nav a {
+    font-size: 30px;
+   color: #21243D;
+   margin: 0 20px;
+}
+.footer h1 {
+font-size: 14px;
+margin-top: 10px;
+font-weight: 400;
+}
+.footer {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+/* FOOTER END */
+
+@media (max-width: 326px) {
+
+.block p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 429px;
+}
+.header h1 {
+  font-size: 17px;
+  font-weight: 500;
+}
+.block {
+  flex-direction: column;
+}
+.block p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 261px;
+}
+.block h1 {
+  font-size: 21px;
+  font-weight: 700;
+}
+.footer-nav a {
+  font-size: 22px;
+  color: #21243D;
+  margin: 0 20px;
+}
+}
+@media (max-width: 768px) {
+  .block p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%;
+}
+.block {
+  flex-direction: column;
+}
+.block img {
+  width: 100%;
+  margin-right: 15px;
+}
+.block h1 {
+  font-size: 21px;
+  font-weight: 700;
+}
+.block img {
+  margin-bottom: 25px;
+}
+}

@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Heebo", sans-serif;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* HEADER START  */
+.header a {
+  color: black;
+}
+.header {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+#header {
+  padding: 20px 0;
+}
+.header h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+/* HEADER END */
+
+/* HERO START  */
+.hero-left h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.hero-left p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 30px 0;
+  line-height: 24px;
+  width: 497px;
+}
+.hero-left button {
+  font-size: 20px;
+  font-weight: 500;
+  width: 208px;
+  height: 47px;
+  color: white;
+  border-radius: 2px;
+  background-color: red;
+}
+.hero-left button:hover {
+  transition: 0.9s;
+  transform: scale(1.1);
+  background: transparent;
+  border: 2px solid red;
+  color: red;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero {
+  padding: 50px 0;
+}
+
+/* HERO START  */
+
+/* POSTS START  */
+.post-top h1 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.post-top a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #00a8cc;
+}
+.post-top p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.post-bottom h1 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38px;
+}
+.post-bottom p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 368px;
+}
+.post-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#posts {
+  background: #edf7fa;
+  padding: 50px 0;
+}
+.post-into {
+  width: 418px;
+  height: 295px;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 20px;
+}
+.post-bottom h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 25px 0;
+}
+.post-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* POSTS END  */
+
+/* BLOCKS START  */
+.block h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.block h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8695a4;
+  margin: 22px 0;
+}
+.block p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 594px;
+}
+.block {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+.block img {
+  margin-right: 15px;
+}
+hr {
+  margin: 35px 0;
+}
+.block h2 span {
+  font-size: 18px;
+  font-weight: 900;
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  background-color: #142850;
+  color: white;
+  padding: 0px 8px;
+}
+.blocks h5 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+/* BLOCKS END */
+
+/* FOOTER START  */
+.footer-nav a {
+  font-size: 30px;
+  color: #21243d;
+  margin: 0 20px;
+}
+.footer h1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+/* FOOTER END */
+
+/* MEDIA START  */
+
+@media (max-width: 992px) {
+  .post-into {
+    width: 347px;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .hero img {
+    margin-bottom: 30px;
+  }
+  .header {
+    justify-content: center;
+  }
+  .post-bottom {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .post-top {
+    margin: 11px 114px;
+  }
+  .block {
+    display: flex;
+    flex-direction: column;
+  }
+  .block img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 376px) {
+  .hero-left h1 {
+    font-size: 37px;
+  }
+  .hero-left p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0;
+    line-height: 24px;
+    width: 371px;
+  }
+  .block p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 288px;
+  }
+  .post-top a {
+    display: none;
+  }
+  .post-top h1 {
+    font-size: 12px;
+    font-weight: 900;
+  }
+}
+@media (min-width: 326px) {
+  .footer-nav a {
+    font-size: 22px;
+    color: #21243d;
+    margin: 0 20px;
+  }
+  .hero-left p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0;
+    line-height: 24px;
+    width: 319px;
+  }
+  .hero-left h1 {
+    font-size: 31px;
+  }
+  .post-into {
+    width: 279px;
+  }
+  .post-bottom h1 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+  .post-bottom p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 295px;
+  }
+  .block h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}

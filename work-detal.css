@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Heebo", sans-serif;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* HEADER START  */
+.header a {
+  color: rgb(255, 0, 0);
+}
+.header-nav {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+#header {
+  padding: 20px 0;
+}
+.header h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* HEADER END */
+
+/* HERO START  */
+.hero h1 {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.hero h2 span {
+  font-size: 18px;
+  font-weight: 900;
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  background-color: #ff0000;
+  color: white;
+  padding: 0px 8px;
+}
+.hero h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.hero p {
+  font-size: 16px;
+  margin: 30px 0;
+  font-weight: 400;
+  width: 681px;
+  line-height: 24px;
+}
+.hero {
+  margin: 0 200px;
+}
+
+/* HERO END */
+
+/* HEAD START  */
+.head h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.head h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.head {
+  width: 677px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.head {
+  margin: 30px 200px;
+}
+.head img {
+  margin: 20px 0;
+}
+/* HEAD END */
+
+/* FOOTER START  */
+.footer-nav a {
+  font-size: 30px;
+  color: #21243d;
+  margin: 0 20px;
+}
+.footer h1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+/* FOOTER END */
+
+/* MEDIA START  */
+
+@media (max-width: 768px) {
+  .hero {
+    margin: 0 10%;
+  }
+  .head {
+    margin: 30px 10%;
+}
+#head img {
+  width: 100%;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+}
+.hero img {
+  width: 100%;
+}
+.hero p {
+  font-size: 16px;
+  margin: 30px 0;
+  font-weight: 400;
+  width: 100%;
+  line-height: 24px;
+}
+.head p {
+  width: 100%;
+}
+}
+@media (max-width: 325px) {
+  .header h1 {
+    font-size: 17px;
+    font-weight: 500;
+}
+.hero h1 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.hero h2 {
+  font-size: 11px;
+  font-weight: 400;
+}
+.hero p {
+  font-size: 13px;
+  margin: 30px 0;
+  font-weight: 400;
+  width: 100%;
+  line-height: 24px;
+}
+.footer-nav a {
+  font-size: 21px;
+  color: #21243d;
+  margin: 0 20px;
+}
+.hero img {
+  width: 100%;
+}
+.head img {
+  width: 100%;
+}
+.head {
+  margin: 30px 0%;
+}
+.hero h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+}
